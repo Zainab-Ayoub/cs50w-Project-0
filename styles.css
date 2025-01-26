@@ -1,3 +1,23 @@
-#container{
-    align-content: center;
+body{
+    justify-content: center;
+    margin: 0;
+}
+
+img{
+    margin-top: 200px;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    margin: 30px 20px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }

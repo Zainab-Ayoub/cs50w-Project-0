@@ -2,18 +2,23 @@
 <html lang="en">
     <head>
         <title>Google Images</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <nav>
             <a href="index.html">Google Search</a>
         </nav>
-    
         
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <div>
+            <span>images</span>
+        </div>
         <main class="container">
             <form action="https://www.google.com/imghp">
-                <input type="text" name="q">
-                <input type="submit" value="Search">
+                <input class="textBar" type="text" name="q">
+                <div class="buttons">
+                    <button type="submit">Search</button>
+                </div>
             </form>
         </main>
         

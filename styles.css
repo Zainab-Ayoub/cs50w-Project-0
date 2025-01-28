@@ -10,11 +10,25 @@ img{
     margin-right: auto;
 }
 
-.links a{
+nav{
     display: flex;
-    margin-right: 30px;
+    margin-top: 30px;
+    padding-right: 30px;
     justify-content: flex-end;
     width: 100%;
+}
+
+a{
+    margin-right: 20px;
+    color: #5E686D;
+}
+
+a:first-child{
+    margin-left: 0;
+}
+
+a:hover{
+    color: black;
 }
 
 .container{

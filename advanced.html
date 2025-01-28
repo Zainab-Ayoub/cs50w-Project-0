@@ -9,36 +9,106 @@
             <a href="index.html">Google Search</a>
         </nav>
 
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <img class="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+        <p class="heading">Advanced Search</p>
+
+        <hr>
 
         <div>
-            <form action="/search" id="formId" method="GET" name="f">
-                
-            <div class="firstColumn">
-                <span>Find pages with...</span>
-
-                <label for="label">all these words:</label>
-                <input value autofocus="autofocus" id="advancedInput" name="as_q" type="text">
-                
-                <label for="label">this exact word or phrase:</label>
-                <input value autofocus="autofocus" id="advancedInput" name="as_epq" type="text">
-                
-                <label for="label">any of these words:</label>
-                <input value autofocus="autofocus" id="advancedInput" name="as_oq" type="text">
-                
-                <label for="label">none these words:</label>
-                <input value autofocus="autofocus" id="advancedInput" name="as_eq" type="text">
-     
-            </div>
-            
-            <div class="secondColumn">
-                <span>To do this in the search box.</span>
-            </div>
-                    
-            </form>
+            <form action="/search" id="search-form" method="GET" name="f">      
+                <div class="search-section"> 
+                    <div class="filter-group"> 
+                        <div class="text-block"> 
+                            <div class="instruction"> 
+                                <span>Find pages with...</span>    
+                            </div> 
+                        </div> 
+                        <div class="empty-space">&nbsp; </div> 
+                        <div class="help-text"> 
+                            <div class="instruction">To do this in the search box.</div> 
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="search-section"> 
+                    <div class="filter-group"> 
+                        <div class="input-label"> 
+                            <div class="instruction"> 
+                                <label for="all-words">all these words:</label>    
+                            </div> 
+                        </div> 
+                        <div class="input-container"> 
+                            <div class="input-wrapper"> 
+                                <input class="search-input" value="" autofocus="autofocus" id="all-words" name="as_q" type="text"> 
+                            </div> 
+                        </div> 
+                        <div class="description"> 
+                            <div class="instruction">Type the important words:  
+                                <span class="highlight">tri-colour rat terrier</span>   
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="filter-group"> 
+                        <div class="input-label"> 
+                            <div class="instruction"> 
+                                <label for="exact-phrase">this exact word or phrase:</label>    
+                            </div> 
+                        </div> 
+                        <div class="input-container"> 
+                            <div class="input-wrapper"> 
+                                <input class="search-input" value="" id="exact-phrase" name="as_epq" type="text"> 
+                            </div> 
+                        </div> 
+                        <div class="description"> 
+                            <div class="instruction">Put exact words in quotes:  
+                                <span class="highlight">"rat terrier"</span>   
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="filter-group"> 
+                        <div class="input-label"> 
+                            <div class="instruction"> 
+                                <label for="any-words">any of these words:</label>    
+                            </div> 
+                        </div> 
+                        <div class="input-container"> 
+                            <div class="input-wrapper"> 
+                                <input class="search-input" value="" id="any-words" name="as_oq" type="text"> 
+                            </div> 
+                        </div> 
+                        <div class="description"> 
+                            <div class="instruction">Type 
+                                <span class="highlight">OR</span> 
+                                between all the words you want:  
+                                <span class="highlight">miniature OR standard</span>   
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="filter-group"> 
+                        <div class="input-label"> 
+                            <div class="instruction"> 
+                                <label for="none-words">none of these words:</label>    
+                            </div> 
+                        </div> 
+                        <div class="input-container"> 
+                            <div class="input-wrapper"> 
+                                <input class="search-input" value="" id="none-words" name="as_eq" type="text"> 
+                            </div> 
+                        </div> 
+                        <div class="description"> 
+                            <div class="instruction">Put a minus sign just before words that you don't want:  
+                                <span class="highlight">-rodent, -"Jack Russell"</span>   
+                            </div> 
+                        </div> 
+                    </div>
+            </form>        
         </div>
             
         
 
     </body>
 </html>
+
+ 
+        
+                    

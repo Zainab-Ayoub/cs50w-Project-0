@@ -11,14 +11,34 @@
 
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
 
-        <main class="container">
-            <form action="https://www.google.com/advanced_search">
-                <input class="textBar" type="text" name="as_q">
-                <div class="buttons">
-                    <button type="submit">Advanced Search</button>
-                </div>
+        <div>
+            <form action="/search" id="formId" method="GET" name="f">
+                
+            <div class="firstColumn">
+                <span>Find pages with...</span>
+
+                <label for="label">all these words:</label>
+                <input value autofocus="autofocus" id="advancedInput" name="as_q" type="text">
+                
+                <label for="label">this exact word or phrase:</label>
+                <input value autofocus="autofocus" id="advancedInput" name="as_epq" type="text">
+                
+                <label for="label">any of these words:</label>
+                <input value autofocus="autofocus" id="advancedInput" name="as_oq" type="text">
+                
+                <label for="label">none these words:</label>
+                <input value autofocus="autofocus" id="advancedInput" name="as_eq" type="text">
+     
+            </div>
+            
+            <div class="secondColumn">
+                <span>To do this in the search box.</span>
+            </div>
+                    
             </form>
-        </main>
+        </div>
+            
+        
 
     </body>
 </html>

@@ -48,10 +48,15 @@ a:hover{
     padding: 0 30px;
 }
 .buttons{
-    margin-left: 270px;
+    display: flex;             
+    justify-content: center;   
+    margin-top: 20px;          
+    width: 100%;  
+    gap: 10px;
 }
 
 button{
+    align-items: center;
     margin-top: 20px;
     padding: 10px 20px;        
     border: none;             
@@ -63,4 +68,11 @@ button{
 
 button:hover{
     background-color: #0056b3; 
+}
+
+.logo{
+    color: #4285f4;
+    position: relative;
+    left: 560px;
+    top: -18px;
 }

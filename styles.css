@@ -90,3 +90,19 @@ button:hover{
     font-weight: 500;
     padding: 20px 35px 10px;
 }
+
+.whitespace{
+    display: inline-block;
+    width: 50%;
+}
+
+.advanced{
+    margin: 50px 40px;
+}
+
+#heading{
+    display: table-column;
+    /* display: inline-block; */
+    width: 50%;
+    font-size: 20px;
+}

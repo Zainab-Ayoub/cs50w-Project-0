@@ -98,12 +98,15 @@ button:hover{
 }
 
 .advanced{
-    margin: 50px 40px;
+    margin: 40px 40px;
 }
 
-#heading{
-    display: table-column;
-    /* display: inline-block; */
-    width: 50%;
-    font-size: 20px;
+#headings{
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.empty-space{
+    width: 35%;
 }

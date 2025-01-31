@@ -85,16 +85,11 @@ button:hover{
     margin-top: -30px;
 }
 
-.heading{
+.mainHeading{
     color: rgb(222, 69, 60);
     font-size: 20px;
     font-weight: 500;
     padding: 20px 35px 10px;
-}
-
-.whitespace{
-    display: inline-block;
-    width: 50%;
 }
 
 .advanced{
@@ -112,11 +107,35 @@ button:hover{
 }
 
 .instruction{
+    font-size: 14px;
     display: inline-block;
     width: 10%;
     margin-bottom: 30px;
 }
 
+.last-instruction{
+    display: flex;
+    align-items: center; /* Align items horizontally */
+    gap: 10px;
+}
 .search-input{
     width: 570px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.search-hint{
+    display: inline-block;
+    font-size: 12px;
+    max-width: 300px;
+}
+
+.highlight{
+    font-family: monospace;
+    font-weight: 400;
+}
+
+.highlight-text{
+    margin-top: -32px;
+    margin-left: 780px;
 }

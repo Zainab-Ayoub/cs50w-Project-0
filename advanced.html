@@ -13,12 +13,12 @@
 
         <img class="image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
 
-        <p class="heading">Advanced Search</p>
+        <p class="mainHeading">Advanced Search</p>
 
         <hr>
 
         <div class="advanced">
-            <form action="/search" method="GET">
+            <form action="/search" id="formID" method="GET">
                 <!-- headings -->
                 <div id="headings">
                     <label>Find pages with...</label>
@@ -31,7 +31,7 @@
                     <small class="instruction">all these words:</small>
                     <input class="search-input" value="" autofocus="autofocus" name="as_q" type="text">
                     <small class="search-hint">Type the important words:  
-                        <span class="highlight">tri-colour rat terrier</span>   
+                        <span class="highlight"><strong>tri-colour rat terrier</strong></span>   
                     </small> 
                 </div>
                 
@@ -40,7 +40,7 @@
                     <small class="instruction">this exact word or phrase:</small>
                     <input class="search-input" value="" name="as_epq" type="text">
                     <small class="search-hint">Put exact words in quotes:  
-                        <span class="highlight">"rat terrier"</span>   
+                        <span class="highlight"><strong>"rat terrier"</strong></span>   
                     </small>  
                 </div>
 
@@ -49,18 +49,20 @@
                     <small class="instruction">any of these words:</small>
                     <input class="search-input" value="" name="as_oq" type="text">
                     <small class="search-hint">Type 
-                        <span class="highlight">OR</span> 
+                        <span class="highlight"><strong>OR</strong></span> 
                         between all the words you want:  
-                        <span class="highlight">miniature OR standard</span>   
+                        <span class="highlight"><strong>miniature OR standard</strong></span>   
                     </small> 
                 </div>
 
                 <!-- fourth instruction -->
                 <div>
-                    <small class="instruction">none of these words:</small>
+                    <small class="last-instruction">none of these words:</small>
                     <input class="search-input" value="" name="as_eq" type="text">
                     <small class="search-hint">Put a minus sign just before words that you don't want:  
-                        <span class="highlight">-rodent, -"Jack Russell"</span>   
+                        <!-- <div class="highlight-text"> -->
+                            <span class="highlight"><strong>-rodent, -"Jack Russell"</strong></span>   
+                        <!-- </div> -->
                     </small> 
                 </div>
             </form>

@@ -74,11 +74,12 @@ button:hover{
 .logo{
     color: #4285f4;
     position: relative;
-    left: 560px;
+    left: 1040px;
     top: -18px;
 }
 
 .image{
+    display: flex;
     height: 26px;
     margin-left: 17px;
     margin-top: -30px;
